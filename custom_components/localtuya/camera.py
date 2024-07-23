@@ -74,6 +74,7 @@ class TuyaCameraEntity(TuyaEntity, CameraEntity):
         """Return the camera brand."""
         return "Tuya"
 
+
     @property
     def motion_detection_enabled(self) -> bool:
         """Return the camera motion detection status."""
